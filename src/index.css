@@ -42,7 +42,6 @@ body {
 
 .top nav a:hover {
   font-family: 'Dancing Script', cursive;
-  font-size: 50px;
 }
 
 .bio {
@@ -55,7 +54,7 @@ body {
   width: 100%;
   margin-top: 2%;
   margin-bottom: 2%;
-  font-size: 130px;
+  font-size: 90px;
   font-family: 'Shadows Into Light', cursive;
 }
 
@@ -71,7 +70,7 @@ body {
 
 .bio-detail h2 {
   width: 100%;
-  font-size: 120px;
+  font-size: 80px;
   flex-wrap: wrap;
   font-family: 'Raleway', sans-serif;
 }
@@ -99,7 +98,7 @@ body {
 .footer-list a:visited {
   text-decoration: none;
   color: black;
-  font-size: 70px;
+  font-size: 40px;
   font-family: 'Dancing Script', cursive;
   border-bottom: 4px solid sandybrown;
 }
@@ -107,3 +106,187 @@ body {
 .footer-list a:hover {
   border-bottom: none;
 }
+
+@media screen and (max-width: 1612px) {
+  .top header {
+    width: 100%;
+  }
+
+  .top h1{
+    font-size: 40px;
+    white-space: nowrap;
+  }
+
+  .top nav a {
+    font-size: 20px;
+    white-space: nowrap;
+  }
+
+  .bio h1 {
+    width: 70%;
+    white-space: nowrap;
+    font-size: 80px;
+  }
+
+  .bio h2 {
+    font-size: 80px;
+  }
+
+  .footer-list {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+
+  .footer-list a:link,
+  .footer-list a:visited {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    border-bottom: 4px solid sandybrown;
+  }
+
+  .footer-list a:hover {
+    border-bottom: none;
+  }
+
+  .footer-list li {
+    margin-bottom: 10px;
+  }
+
+}
+
+@media screen and (max-width: 830px) {
+  .top header {
+    width: 100%;
+  }
+
+  .top h1{
+    font-size: 30px;
+    white-space: nowrap;
+  }
+
+  .top nav a {
+    font-size: 20px;
+    white-space: nowrap;
+  }
+
+  .bio h1 {
+    width: 70%;
+    white-space: nowrap;
+    font-size: 60px;
+  }
+
+  .bio h2 {
+    font-size: 90px;
+  }
+
+  .footer-list {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+}
+
+@media screen and (max-width: 620px) {
+  .top header {
+    width: 100%;
+  }
+
+  .top h1{
+    font-size: 40px;
+    white-space: nowrap;
+  }
+
+  .top nav a {
+    font-size: 10px;
+    white-space: nowrap;
+  }
+
+  .bio h1 {
+    width: 70%;
+    white-space: nowrap;
+    font-size: 50px;
+  }
+
+  .bio h2 {
+    font-size: 50px;
+  }
+
+  .footer-list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+}
+
+@media screen and (max-width: 520px) {
+  .top header {
+    width: 100%;
+  }
+
+  .top h1{
+    font-size: 40px;
+    white-space: nowrap;
+  }
+
+  .top nav a {
+    font-size: 10px;
+    white-space: nowrap;
+  }
+
+  .bio h1 {
+    width: 70%;
+    white-space: nowrap;
+    font-size: 40px;
+  }
+
+  .bio h2 {
+    font-size: 50px;
+  }
+
+  .footer-list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+}
+
+@media screen and (max-width: 430px) {
+  .top header {
+    width: 100%;
+  }
+
+  .top h1{
+    font-size: 25px;
+    white-space: nowrap;
+  }
+
+  .top nav a {
+    font-size: 10px;
+    white-space: nowrap;
+  }
+
+  .bio h1 {
+    width: 70%;
+    white-space: nowrap;
+    font-size: 30px;
+  }
+
+  .bio h2 {
+    font-size: 40px;
+  }
+
+  .footer-list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+}
+
