@@ -35,7 +35,7 @@ body {
 .top nav a:visited {
   text-decoration: none;
   color: black;
-  font-size: 30px;
+  font-size: 25px;
   flex-grow: 1;
   font-family: 'Raleway', sans-serif;
 }
