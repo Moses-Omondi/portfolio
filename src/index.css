@@ -184,7 +184,7 @@ body {
 
   .footer-list {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-right: 10px;
     margin-bottom: 10px;
   }

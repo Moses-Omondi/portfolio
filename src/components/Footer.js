@@ -5,10 +5,10 @@ const Footer = () => {
         <div>
             <footer className="footer">
                 <ul class="footer-list">
-                    <li><strong><a href="https://github.com/Moses-Omondi" target="_blank">Github</a></strong></li>
-                    <li><strong><a href="https://www.linkedin.com/in/moses-omondi-a5391599/" target="_blank">Linkedin</a></strong></li>
-                    <li><strong><a href="https://www.kaggle.com/moseso" target="_blank">Kaggle</a></strong></li>
-                    <li><strong><a href="https://drive.google.com/file/d/1uf94XTggoQVmXabmwVRDZSiUsyTBr3bs/view" target="_blank">CV</a></strong></li>
+                    <li><strong><a href="https://github.com/Moses-Omondi">Github</a></strong></li>
+                    <li><strong><a href="https://www.linkedin.com/in/moses-omondi-a5391599/">Linkedin</a></strong></li>
+                    <li><strong><a href="https://www.kaggle.com/moseso">Kaggle</a></strong></li>
+                    <li><strong><a href="https://drive.google.com/file/d/1uf94XTggoQVmXabmwVRDZSiUsyTBr3bs/view">CV</a></strong></li>
                 </ul>
             </footer>
         </div>
