@@ -1,10 +1,14 @@
 import React from 'react'
-import WebFont from 'webfontloader'
 
 const Nav = () => {
     return (
-        <div className="nav">
-            <h1>Moses Omondi</h1>
+        <div className="top">
+            <header>
+                <h1>Moses-Omondi</h1>
+                <nav>
+                    <a href="mailto: mosesomondi360@gmail.com" ><strong>Contact Me</strong></a>
+                </nav>
+            </header>
         </div>
     )
 }

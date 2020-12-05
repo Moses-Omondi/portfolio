@@ -1,38 +1,61 @@
-body {
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+body {
   width: 100vw;
   height: 100vh;
-  overflow-x: hidden;
-  cursor: pointer;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-.nav {
-  margin-left: 3%;
-  margin-top: 5%;
-  white-space: nowrap;
+.top header {
+ width: 100%;
+ height: 80px;
+ padding: 0px 5%;
+ font-family: 'Dancing Script', cursive;
+ font-size: 35px;
+ box-shadow: 0px 1px 5px rgb(248, 210, 84);
+ display: flex;
+ flex-flow: row nowrap;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.top h1 {
+  flex-basis: 90%;
+}
+
+.top nav {
+  flex-basis: 10%;
+}
+
+.top nav a:link,
+.top nav a:visited {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  flex-grow: 1;
+  font-family: 'Raleway', sans-serif;
+}
+
+.top nav a:hover {
   font-family: 'Dancing Script', cursive;
-  position: relative;
-  width: 13%;
+  font-size: 50px;
 }
 
-.nav::after {
-  border-top: 6px solid sandybrown;
-  content: "";
-  position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
+.bio {
+  padding: 0px 5%;
+  display: flex;
+  flex-direction: column;
 }
 
-.bio h1 {
-  margin-top: 9%;
-  margin-left: 3%;
-  font-size: 60px;
+.bio h1{
+  width: 100%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 130px;
   font-family: 'Shadows Into Light', cursive;
 }
 
@@ -42,23 +65,15 @@ body {
   font-family: 'Shadows Into Light', cursive;
 }
 
-.bio-detail {
-  display: flex;
-  flex-direction: row;  
+.bio bio-detail {
+  width: 100%;
 }
 
 .bio-detail h2 {
-  width: 90%;
-  margin-left: 3%;
-  margin-right: 50px;
-}
-
-.bio-detail img {
-  width: 400px;
-  height: 400px;
-  border-radius: 50%;
-  margin-top: -13%;
-  margin-left: 5%;
+  width: 100%;
+  font-size: 120px;
+  flex-wrap: wrap;
+  font-family: 'Raleway', sans-serif;
 }
 
 .bio-detail span {
@@ -68,27 +83,27 @@ body {
 }
 
 .footer {
-  margin-left: 1%;
+  width: 100%;
+  padding: 10px 5%;
+  margin-top: 1%;
 }
 
 .footer-list {
-  font-family: 'Dancing Script', cursive;
-  font-size: 30px;
-  width: 30%;
-  display: flex;
+  width: 40%;
   list-style-type: none;
-  align-items: row;
-  justify-content: flex-start;
+  display: flex;
   justify-content: space-between;
 }
 
-.footer-list a {
+.footer-list a:link,
+.footer-list a:visited {
   text-decoration: none;
-  border-bottom: 4px solid sandybrown;
   color: black;
+  font-size: 70px;
+  font-family: 'Dancing Script', cursive;
+  border-bottom: 4px solid sandybrown;
 }
 
-.footer-list :hover {
-  text-decoration: none;
+.footer-list a:hover {
+  border-bottom: none;
 }
-
